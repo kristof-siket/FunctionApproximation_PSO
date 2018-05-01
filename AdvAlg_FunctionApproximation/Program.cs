@@ -10,6 +10,11 @@ namespace AdvAlg_FunctionApproximation
     {
         static void Main(string[] args)
         {
+            FunctionApproximationSolver solver = new FunctionApproximationSolver();
+            Console.ReadLine();
+            solver.PSOptimize();
+            Console.WriteLine("Optimization is over!");
+            Console.ReadLine();
         }
     }
 }
